@@ -14,9 +14,10 @@ if (fichier != NULL) {
     fclose(fichier);
     remove(nomFichier);
 } else {
-    printf("Merci de mettre ce .exe dans le meme dossier que le fichier a supprimer");
+    printf("Merci de mettre ce .exe dans le meme dossier que le fichier a supprimer\n\n");
     }
 
+system("pause");
 return 0;
 }
 
